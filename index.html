@@ -3,8 +3,8 @@
   <script type="text/javascript">
     function fun(){
     
-    var change=document.getElementById("cal");
-      change.row[1].cell[5].innerHTML=96;
+    var change=document.getElementById("cal").value;
+      change.row[1].cell[5].innerHTML='96';
     
         }
     }
@@ -41,7 +41,7 @@
       </tr>      
       
     </table>
-    <button onclick="fun">ClickMe</button>
+    <button onclick="fun" value="96">ClickMe</button>
    
   </body>
 
